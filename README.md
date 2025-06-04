@@ -1,15 +1,15 @@
 # 📧 Email Verifier
 
-Простая программа для проверки валидности Email написанная на Go. Позволяет проверить формат email, а также валидность доменного имени.
+A simple Email validation program written in Go. Allows you to check the email format, as well as the validity of the domain name.
 
 ---
 
-## Установка и запуск
-Скачайте исполняемый файл под вашу ОС перейдя по ссылке:
+## Installation and launch
+Download the executable file for your OS by clicking on the link:
 ```
 https://github.com/spookysploit/email-verifier/releases/tag/email-verifier
 ```
-### Запуск:
+### Launch:
 Linux:\
 ```
 ./email-verifier_linux_x64
@@ -18,8 +18,8 @@ Windows:\
 ```
 .\email-verifier_x64.exe
 ```
-### Использование:
-Один email
+### Usage:
+One email
 ```
 Enter email(s) (comma-separated):
 example@gmail.com
@@ -29,7 +29,7 @@ Domain: gmail.com
 - SPF: true
 - DMARC: true
 ```
-Несколько через запятую
+Several emails separated by commas
 ```
 Enter email(s) (comma-separated):
 example1@gmail.com,hesoyam@internet.com,aezakmi@yahoo.com,non-valid.mail.ru
