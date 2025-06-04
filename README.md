@@ -1,6 +1,6 @@
 # 📧 Email Verifier
 
-A simple Email validation program written in Go. Allows you to check the email format, as well as the validity of the domain name.
+A simple Email validation tool written in Go. Allows you to check the email format, as well as the validity of the domain name.
 
 ---
 
