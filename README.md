@@ -5,12 +5,51 @@
 ---
 
 ## Установка и запуск
-Скачайте репозиторий используя команду:
+Скачайте исполняемый файл под вашу ОС используя команду:
 ```
-git clone https://github.com/spookysploit/email-verifier.git
+https://github.com/spookysploit/email-verifier/releases/tag/email-verifier
 ```
-Перейдите в репозиторий:
+### Запуск:
+Linux:\
 ```
-cd ./email-verifier
+./email-verifier_linux_x64
 ```
-Запуск go r
+Windows:\
+```
+.\email-verifier_x64.exe
+```
+### Использование:
+Один email
+```
+Enter email(s) (comma-separated):
+example@gmail.com
+Email: example@gmail.com
+Domain: gmail.com
+- MX: true
+- SPF: true
+- DMARC: true
+```
+Несколько через запятую
+```
+Enter email(s) (comma-separated):
+example1@gmail.com,hesoyam@internet.com,aezakmi@yahoo.com,non-valid.mail.ru
+Email: example1@gmail.com
+Domain: gmail.com
+- MX: true
+- SPF: true
+- DMARC: true
+
+Email: hesoyam@internet.com
+Domain: internet.com
+- MX: true
+- SPF: true
+- DMARC: true
+
+Email: aezakmi@yahoo.com
+Domain: yahoo.com
+- MX: true
+- SPF: true
+- DMARC: true
+
+non-valid.mail.ru IS INVALID (bad format)
+```
